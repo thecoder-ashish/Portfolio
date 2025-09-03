@@ -1,4 +1,3 @@
-import React from 'react';
 import noterr from './../assets/projects/noterr.png'
 import todo from './../assets/projects/todo.png'
 import rps from './../assets/projects/rps.png'

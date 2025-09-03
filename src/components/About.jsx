@@ -1,4 +1,3 @@
-import React from 'react';
 import football from './../assets/football.svg'
 import coding from './../assets/coding.svg'
 
