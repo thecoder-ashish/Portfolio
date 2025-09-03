@@ -5,7 +5,7 @@ import rps from './../assets/projects/rps.png'
 
 const ProjectCard = ({ title, description, thumbnail, link }) => (
   <a href={link} target='_blank' rel='noopener noreferrer'
-  className="bg-card hover:bg-hover sm:w-[50vw] md:w-[35vw] lg:w-[20vw] rounded-lg overflow-hidden group shadow-lg hover:shadow-xl transition-shadow hover:scale-102 transition-transform duration-300 ease-in-out">
+  className="bg-card hover:bg-hover active:bg-hover focus:bg-hover sm:w-[50vw] md:w-[35vw] lg:w-[20vw] rounded-lg overflow-hidden group shadow-lg hover:shadow-xl transition-shadow hover:scale-102 active:scale-105 focus:scale-102 transition-transform duration-300 ease-in-out">
     <div className="bg-gray-300 h-55 overflow-hidden flex items-center justify-center">
         <img src={thumbnail} alt="Preview of the project" className="w-full h-full object-cover " />
     </div>

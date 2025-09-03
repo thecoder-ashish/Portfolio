@@ -14,7 +14,6 @@ const Navbar = () => {
   return (
     <nav className="text-white p-6 fixed top-0 w-full z-50 transition-colors duration-300 backdrop-blur-sm">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo or Site Title (Optional) */}
         <div className="text-3xl font-bold">
           <a href="#home">Ashish</a>
         </div>

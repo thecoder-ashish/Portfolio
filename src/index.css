@@ -9,3 +9,6 @@
     scroll-behavior: smooth;
     scrollbar-width: thin;
 }
+.socials{
+    @apply flex flex-col items-center text-center p-6 rounded-2xl bg-card focus:bg-hover hover:bg-hover active:bg-hover transition-colors  transform hover:scale-105 focus:scale-105 active:scale-105 duration-300 ease-in-out;
+}
