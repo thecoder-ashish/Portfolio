@@ -50,7 +50,7 @@ const Contact = () => {
           <div className="flex flex-col items-center text-center p-6 rounded-2xl bg-card hover:bg-hover transition-colors duration-400 ease-in-out transform hover:scale-105">
             <Linkedin size={48} className="text-purple-300 mb-4" />
             <h3 className="text-xl font-semibold text-white mb-1">LinkedIn</h3>
-            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:underline">
+            <a href="https://linkedin.com/in/ashish-kumar-103587378/" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:underline">
               Link
             </a>
           </div>
